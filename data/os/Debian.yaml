@@ -1,0 +1,7 @@
+---
+phagrancy::data_dir: '/vagrant-boxes'
+phagrancy::owner: 'www-data'
+phagrancy::parent_dir: '/srv'
+phagrancy::user: 'root'
+
+phagrancy::php_version: '7.0'

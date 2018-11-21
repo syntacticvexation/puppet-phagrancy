@@ -1,0 +1,10 @@
+---
+phagrancy::owner: 'vagrant'
+phagrancy::user: 'vagrant'
+phagrancy::parent_dir: '/home/vagrant'
+phagrancy::data_dir: '/home/vagrant/vagrant-boxes'
+
+phagrancy::packages:
+  - 'php-fpm'
+
+phagrancy::php_version: '7.2'

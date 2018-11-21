@@ -1,0 +1,10 @@
+---
+phagrancy::docroot: "%{lookup('phagrancy::install_dir')}/web"
+phagrancy::install_dir: "%{lookup('phagrancy::parent_dir')}/phagrancy"
+phagrancy::packages:
+  - 'php-curl'
+  - 'php-fpm'
+  - 'php-mbstring'
+  - 'php-xml'
+phagrancy::poweredby: 'nginx'
+phagrancy::repo: 'https://github.com/syntacticvexation/phagrancy.git'
